@@ -4,10 +4,10 @@ body {
 }
 .container {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 0.1em solid rgb(225, 232, 237);
-  width: auto;
-  height:auto;
+  width: 60em;
+  height: 19em;
 }
 
 .profile-picture{
@@ -48,14 +48,82 @@ body {
   position: relative;
   top: -5.05em;
   left: 4.2em;
-
 }
 
 .follow-on-twitter{
+border: 0.1em solid rgb(82, 171, 235);
+position: relative;
+left: 46em;
+right:auto;
+bottom: auto;
+top: -9em;
+border-radius: 0.5em;
+height: 3.7em;
+width: 10.5em;
+}
+
+.follow-on-twitter p {
   font-family: Helvetica, Arial, Sans-serif;
   font-size: 1.8em;
   font-weight: 800;
-  color: #52ABEB;
-  border: border: 0.1em solid #52ABEB;
+  color: rgb(82, 171, 235);
+  position: relative;
+  left: 1.9em;
+  top: -0.5em;
+}
 
+.twitter-logo {
+position: absolute;
+left: 47.8em;
+top: 3.8em;
+}
+
+.jack-account{
+  position: relative;
+  top: -6.6em;
+}
+
+.post {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1.8em;
+  color: black;
+  position: absolute;
+  left: 1.5em;
+  top: 4.3em;
+}
+
+.time{
+  position: absolute;
+  left: 1.5em;
+  top: 6em;
+}
+
+.reply{
+  position: absolute;
+  left: 2.5em;
+  top: 16em;
+}
+
+.retweet{
+  position: absolute;
+  left: 7.5em;
+  top: 16em;
+}
+
+.retweet-numbers{
+  position: absolute;
+  left: 5.8em;
+  top: 7.7em;
+}
+
+.favorite{
+  position: absolute;
+  left: 17.9em;
+  top: 15.8em;
+}
+
+.heart-numbers{
+  position: absolute;
+  left: 11.2em;
+  top: 7.7em;
 }
