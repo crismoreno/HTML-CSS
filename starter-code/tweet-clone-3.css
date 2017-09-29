@@ -1,0 +1,157 @@
+  /**/
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body{
+  background-color: rgb(244, 248, 249);
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  border: 0.1em solid rgb(225, 232, 237);
+  width: 60%;
+  height: 45%;
+  position: absolute;
+  left: 1.5%;
+  top: 2%;
+}
+
+.container .profile-picture{
+  position: absolute;
+  left: 5%;
+  top: 15%;
+}
+
+.container .emoji{
+  display: inline;
+  position: absolute;
+  left: 17%;
+  top: 15%;
+}
+
+h1 {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.container h1{
+  display: inline;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+.container .validated{
+  display: inline;
+  position: absolute;
+  left: 28%;
+  top: 15%
+}
+
+.container .blue{
+  display: inline;
+  float: right;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  border: 0.1em solid rgb(82, 171, 235);
+  border-radius: 0.5em;
+  height: 21%;
+  width: 22%;
+}
+
+h2{
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1.8em;
+  font-weight: 800;
+  color: rgb(82, 171, 235);
+}
+
+.container .blue .twitter-logo{
+  display: inline;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+
+}
+
+.container .blue h2{
+position: absolute;
+left: 35%;
+top: 25%;
+display: inline;
+}
+
+h3{
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1.8em;
+  color: rgb(105, 120, 130);
+  font-weight: normal;
+}
+
+.container h3{
+  display: inline;
+  float: left;
+  position: absolute;
+  top: 30%;
+  left: 17%;
+
+}
+
+p{
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1.8em;
+  color: black;
+
+}
+
+.post p{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+.gray1 h3 {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+}
+
+.reply{
+  position: absolute;
+  left: 5%;
+  top: 83%;
+}
+
+  .retweet{
+    position: absolute;
+    left: 13%;
+    top: 83%;
+  }
+
+
+.gray2 h3{
+  display: inline;
+  position: absolute;
+  top: 82%;
+  left: 19%;
+}
+
+.heart{
+  display: inline;
+  position: absolute;
+  top: 83%;
+  left: 33%;
+}
+
+.gray3 h3{
+  display: inline;
+  position: absolute;
+  top: 82%;
+  left: 38%;
+}
